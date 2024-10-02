@@ -5,20 +5,32 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-project_name = "textSumarizer"
+part1 = "textSumarizer"
+part2 = 'chatbot'
 
 list_of_files = [
     "./github/wrokflows/.gitkeep",
-    f"src/{project_name}/__init__.py",
-    f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/utils/__init__.py",
-    f"src/{project_name}/utils/common.py",
-    f"src/{project_name}/logging/__init__.py",
-    f"src/{project_name}/config/__init__.py",
-    f"src/{project_name}/config/configuration.py",
-    f"src/{project_name}/pipeline/__init__.py",
-    f"src/{project_name}/entity/__init__.py",
-    f"src/{project_name}/constants/__init__.py",
+    f"src/{part1}/__init__.py",
+    f"src/{part1}/components/__init__.py",
+    f"src/{part1}/utils/__init__.py",
+    f"src/{part1}/utils/common.py",
+    f"src/{part1}/logging/__init__.py",
+    f"src/{part1}/config/__init__.py",
+    f"src/{part1}/config/configuration.py",
+    f"src/{part1}/pipeline/__init__.py",
+    f"src/{part1}/entity/__init__.py",
+    f"src/{part1}/constants/__init__.py",
+    f"src/{part2}/__init__.py",
+    f"src/{part2}/components/__init__.py",
+    f"src/{part2}/utils/__init__.py",
+    f"src/{part2}/utils/common.py",
+    f"src/{part2}/logging/__init__.py",
+    f"src/{part2}/config/__init__.py",
+    f"src/{part2}/config/configuration.py",
+    f"src/{part2}/pipeline/__init__.py",
+    f"src/{part2}/entity/__init__.py",
+    f"src/{part2}/constants/__init__.py",
+    
     "config/config.yaml",
     "params.yaml",
     "app.py",
